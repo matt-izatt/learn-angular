@@ -18,6 +18,10 @@ import {ParentComponent} from './components/parent/parent.component';
   imports: [
     CommonModule,
     ComponentFactoryRoutingModule
+  ],
+  entryComponents: [
+    FirstChildComponent,
+    SecondChildComponent,
   ]
 })
 export class ComponentFactoryModule {
