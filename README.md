@@ -1,3 +1,10 @@
-# mi-learn-angular
+# Angular Learning Sandbox
+
+## Aims
+Create a single location hosted on stackblitz to act as an Angular sandbox/reference for angular code
+
+## Current Features
+
+## View/Edit Project
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/mi-learn-angular)
