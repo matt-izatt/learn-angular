@@ -7,4 +7,4 @@ Create a single location hosted on stackblitz to act as an Angular sandbox/refer
 
 ## View/Edit Project
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/mi-learn-angular)
+https://stackblitz.com/edit/mi-learn-angular
