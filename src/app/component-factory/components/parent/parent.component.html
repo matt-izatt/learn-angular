@@ -4,8 +4,8 @@
         <h3>Parent Component</h3>
         <hr>
         <div class="buttons">
-            <button *ngIf="placeholder" (click)="loadFirstChild()" class="btn">Load First Child</button>
-            <button *ngIf="placeholder" (click)="loadSecondChild()" class="btn">Load Second Child</button>
+            <button (click)="loadFirstChild()" *ngIf="placeholder" class="button">Load First Child</button>
+            <button (click)="loadSecondChild()" *ngIf="placeholder" class="button">Load Second Child</button>
         </div>
         <div class="content">
             <ng-template placeholder></ng-template>

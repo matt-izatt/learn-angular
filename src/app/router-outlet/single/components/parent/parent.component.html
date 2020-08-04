@@ -1,0 +1,15 @@
+<div class="router-outlet-container">
+    <h2>Router Outlet</h2>
+    <div class="parent">
+        <h3>Parent Component</h3>
+        <hr>
+        <div class="buttons">
+            <button class="button" routerLink="/router-outlet/first-child">Load First Child</button>
+            <button class="button" routerLink="/router-outlet/second-child">Load Second Child</button>
+        </div>
+        <button (click)="logFromChildComponent()" class="log-button">Call method on child component</button>
+        <div class="content">
+            <router-outlet (activate)="setComponentReference($event)"></router-outlet>
+        </div>
+    </div>
+</div>
