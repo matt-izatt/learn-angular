@@ -5,6 +5,7 @@ Create a single location hosted on stackblitz to act as an Angular sandbox/refer
 
 ## Current Features
 - Component Factory
+- Router Outlet
 
 ## View/Edit Project
 
