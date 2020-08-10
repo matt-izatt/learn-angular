@@ -10,6 +10,10 @@ const routes: Routes = [
   {
     path: 'router-outlet',
     loadChildren: () => import('./router-outlet/router-outlet.module').then(m => m.RouterOutletModule)
+  },
+  {
+    path: 'directives',
+    loadChildren: () => import('./directives/directives.module').then(m => m.DirectivesModule)
   }
 ];
 
