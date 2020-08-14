@@ -1,7 +1,7 @@
 ---
 name: Add angular feature
-about: Describe this issue template's purpose here.
-title: ''
+about: Add examples of the feature and a description + relevant sections to the wiki
+title: Feature - Name
 labels: ''
 assignees: matt-izatt
 
