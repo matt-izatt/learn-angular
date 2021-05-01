@@ -6,4 +6,5 @@ import {Component} from '@angular/core';
   styleUrls: ['./structural.component.scss']
 })
 export class StructuralComponent {
+  unless = false;
 }
