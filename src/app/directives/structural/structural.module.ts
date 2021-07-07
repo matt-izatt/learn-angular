@@ -3,10 +3,11 @@ import {CommonModule} from '@angular/common';
 
 import {StructuralRoutingModule} from './structural-routing.module';
 import {StructuralComponent} from './structural.component';
+import {UnlessDirective} from './unless.directive';
 
 
 @NgModule({
-  declarations: [StructuralComponent],
+  declarations: [StructuralComponent, UnlessDirective],
   imports: [
     CommonModule,
     StructuralRoutingModule
