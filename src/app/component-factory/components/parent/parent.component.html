@@ -1,0 +1,14 @@
+<div class="component-factory-container">
+    <h2>Component Factory</h2>
+    <div class="parent">
+        <h3>Parent Component</h3>
+        <hr>
+        <div class="buttons">
+            <button (click)="loadFirstChild()" *ngIf="placeholder" class="button">Load First Child</button>
+            <button (click)="loadSecondChild()" *ngIf="placeholder" class="button">Load Second Child</button>
+        </div>
+        <div class="content">
+            <ng-template placeholder></ng-template>
+        </div>
+    </div>
+</div>

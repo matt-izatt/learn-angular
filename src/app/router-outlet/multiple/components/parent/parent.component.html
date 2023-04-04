@@ -1,0 +1,17 @@
+<div class="router-outlet-container">
+    <h2>Router Outlet</h2>
+    <div class="parent">
+        <h3>Parent Component</h3>
+        <hr>
+        <button (click)="logFromFirstChildComponent()" class="button">Call method on first child component</button>
+        <button (click)="logFromSecondChildComponent()" class="button">Call method on second child component</button>
+        <div class="content">
+            <div class="child">
+                <router-outlet (activate)="setFirstComponentReference($event)" name="first"></router-outlet>
+            </div>
+            <div class="child">
+                <router-outlet (activate)="setSecondComponentReference($event)" name="second"></router-outlet>
+            </div>
+        </div>
+    </div>
+</div>

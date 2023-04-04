@@ -1,0 +1,87 @@
+.router-outlet-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100vw;
+  height: calc(100vh - 5.4rem);
+  padding-top: 3rem;
+
+  background-color: ghostwhite;
+
+  .parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 80vw;
+    height: 75vh;
+    margin: 2rem;
+    border-radius: 1rem;
+
+    color: white;
+    background-color: blueviolet;
+
+    h3 {
+      padding: 1.6rem;
+    }
+
+    hr {
+      width: 80%;
+    }
+
+    .buttons {
+      .button {
+        padding: 1rem 2rem;
+        margin: 3rem 1rem 2rem 1rem;
+
+        height: 4rem;
+
+        border: none;
+        border-radius: 2rem;
+        background-color: dodgerblue;
+
+        color: white;
+        font-weight: 800;
+        font-size: 1.6rem;
+
+        cursor: pointer;
+        box-shadow: 0 0.4rem 0.8rem 0 rgba(0, 0, 0, 0.2);
+
+        &:hover {
+          box-shadow: none;
+        }
+      }
+    }
+
+    .log-button {
+      padding: 1rem 4rem;
+      margin: 1rem 0;
+
+      height: 4rem;
+
+      border: none;
+      border-radius: 2rem;
+      background-color: indianred;
+
+      color: white;
+      font-weight: 800;
+      font-size: 1.6rem;
+
+      cursor: pointer;
+      box-shadow: 0 0.4rem 0.8rem 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .content {
+      width: 80%;
+      height: 50%;
+      margin: 1rem 0;
+    }
+  }
+}
+
+
+
+
+
+
